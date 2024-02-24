@@ -4,7 +4,6 @@ import styled from "@emotion/styled";
 import Navigation from "./components/main/Navigation";
 import Sidebar from "./components/main/Sidebar";
 import {Route, Routes} from "react-router-dom";
-import _test from "./components/Week/Week";
 import Week from "./components/Week/Week";
 
 const AppContainer = styled.div`

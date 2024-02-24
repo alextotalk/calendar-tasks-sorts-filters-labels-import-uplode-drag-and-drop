@@ -10,11 +10,15 @@ const Week = styled.div`
     font-weight: bold;
 
 `;
+const ContentCurrentWeek = styled.div`
+    
+
+`;
 
 
 
 const WeekDays: React.FC<any> = () => {
-    return (
+    return (<div>
         <Week>
             <div>Пн</div>
             <div>Вт</div>
@@ -24,6 +28,10 @@ const WeekDays: React.FC<any> = () => {
             <div>Сб</div>
             <div>Нд</div>
         </Week>
+            <ContentCurrentWeek>
+
+            </ContentCurrentWeek>
+        </div>
     );
 };
 
